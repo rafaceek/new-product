@@ -1,0 +1,83 @@
+.strateg__item:hover .strateg__item-title {
+  color: #02897a;
+}
+
+.strateg__title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 51px;
+  color: $text-color;
+  margin-bottom: 8px;
+}
+
+.strateg__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: $text-color;
+  margin-bottom: 32px;
+}
+
+.strateg__list {
+  list-style: none;
+  padding: 0;
+}
+
+.strateg__item-inner {
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.strateg__item-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: $text-color;
+  margin-bottom: 12px;
+}
+
+.strateg__item-text-bold {
+  font-weight: bold;
+}
+
+.strateg__item-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: $text-color;
+
+}
+
+.button__item {
+  margin: 0 5px;
+}
+
+.button__item:nth-child(2) .button__link {
+  background-color: #02897a;
+}
+
+.button__link {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #efefef;
+  border: none;
+}
+
+@media screen and (max-width: 992px) {
+
+  .strateg__item {
+    text-align: center;
+  }
+  
+  .strateg__item-inner {
+    padding-left: 0;
+    width: 349px;
+    margin: 0 auto;
+  }
+
+  .strateg__item-inner {
+    text-align: left;
+  }
+}

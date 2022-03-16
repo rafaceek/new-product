@@ -1,0 +1,146 @@
+.price {
+  padding: 150px 0;
+}
+
+.price__title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 51px;
+  color: $text-color;
+  margin-bottom: 8px;
+}
+
+.price__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $text-color;
+  margin-bottom: 50px;
+}
+
+.card__item-inner {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 24px 0;
+  transition: background-color 0.4s ease,
+              color 0.4s ease;
+}
+
+.card__item:nth-child(2) .card__item-inner > *,
+.card__item:nth-child(2) .card__text-num,
+.card__item:nth-child(2) .card__text-dollar,
+.card__item:nth-child(2) .card__mounth {
+  color: #fff;
+}
+
+.card__item:nth-child(2) .card__item-inner {
+  background-color: #02897A;
+}
+
+/* 
+.card__item-inner:nth-child(2) .card__title,
+.card__item-inner:nth-child(2) .card__text,
+.card__item-inner:nth-child(2) .card__text-num,
+.card__item-inner:nth-child(2) .card__text-dollar,
+.card__item-inner:nth-child(2) .card__mounth,
+.card__item-inner:nth-child(2) .card__subtext {
+  color: #fff;
+} */
+
+.card__item-inner:nth-child(2) {
+  background-color: #02897A;
+}
+
+.card__item:nth-child(2) .card__item-inner .card__btn {
+  background-color: #fff;
+  color: #02897A;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.card__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.card__data {
+  margin-bottom: 16px;
+}
+
+.card__text-num {
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+
+.card__sallary {
+  text-align: left;
+}
+
+.card__text-dollar {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #02897A;
+}
+.card__mounth {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+}
+
+.card__subtext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+  margin-bottom: 16px;
+}
+
+.card__item .card__subtext:nth-child(6) {
+  margin-bottom: 38px;
+}
+
+.card__btn {
+  padding: 11px 19px;
+  background-color: #02897A;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+}
+
+@media screen and (max-width: 992px) {
+
+  .price {
+    padding-bottom: 100px;
+  }
+
+  .price__title {
+    text-align: center;
+  }
+
+  .price__text {
+    text-align: center;
+  }
+
+
+  .card__item {
+    margin-bottom: 32px;
+  }
+}
